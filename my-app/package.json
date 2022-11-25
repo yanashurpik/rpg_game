@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cucumber/cucumber": "^8.3.1",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "chai": "^4.3.6",
+    "cra-template": "1.2.0",
+    "cucumber-tsflow": "^4.0.0-preview.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts-ts": "3.1.0",
+    "tslint": "^5.20.1"
+  },
+  "scripts": {
+    "lint": "tslint",
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1"
+  }
+}
